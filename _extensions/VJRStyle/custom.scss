@@ -25,4 +25,19 @@ $presentation-title-slide-text-align: right;
     height: 1%;
 }
 
+section.has-dark-background h1 {
+    color:#efe;
+
+    span {
+    background-color: rgba(0, 50, 0, 0.4);
+    line-height: 1.35;
+    }
+}
+
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author .quarto-title-affiliation {
+    font-size: .5em;
+    margin-top: 0px;
+    margin-bottom:8px
+}
+
 /* TODO: Provide custom CSS rules */
