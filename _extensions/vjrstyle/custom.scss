@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+
+$body-bg: #f6fff9;
+$body-color: #0c2702;
+$link-color: #258a11;
+
+// Layout
+$presentation-title-slide-text-align: right;
+
+/* TODO: Customize presentation appearance by setting SCSS variables */
+/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+
+/*-- scss:rules --*/
+
+.reveal .slide-logo {
+    right: 15px;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    max-height: 60px !important;
+    z-index: 1;
+}
+
+.reveal .progress {
+    background: rgba(0, 0, 0, 0.2);
+    height: 1%;
+}
+
+/* TODO: Provide custom CSS rules */
