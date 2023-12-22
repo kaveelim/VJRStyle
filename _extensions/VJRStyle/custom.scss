@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
 
 $body-bg: #f6fff9;
-$body-color: #0c2702;
-$link-color: #258a11;
+$body-color: #103010;
+$link-color: #257010;
 
 // Layout
 $presentation-title-slide-text-align: right;
@@ -29,7 +29,7 @@ section.has-dark-background h1 {
     color:#efe;
 
     span {
-    background-color: rgba(0, 50, 0, 0.4);
+    background-color: rgba(60, 98, 85, 0.5);
     line-height: 1.35;
     }
 }
@@ -40,4 +40,19 @@ section.has-dark-background h1 {
     margin-bottom:8px
 }
 
+.reveal .slide aside, .reveal .slide div.aside {
+    position: absolute;
+    bottom: 15px;
+    font-size: 0.4em;
+    color:#395909
+}
+
+
+.reveal h2{
+    color:#3C6255;
+}
+
+.reveal h3, .reveal h4{
+    color:#61876E;
+}
 /* TODO: Provide custom CSS rules */
